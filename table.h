@@ -17,4 +17,6 @@ typedef struct {
 
 void initTable(Table *table);
 bool tableset(Table *table, char *key, int value);
+Entry getTable(Table *table, char *key);
+void printTable(Table *table);
 #endif
